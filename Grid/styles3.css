@@ -1,0 +1,50 @@
+body * {
+  box-sizing: border-box;
+}
+.head {
+  grid-area: h;
+  background-color: green;
+}
+.main {
+  background-color: blue;
+  grid-column: 1 / span 4;
+}
+.side {
+  background-color: yellow;
+  grid-column: 5 / span 3;
+}
+.twin1 {
+  background-color: grey;
+  grid-column: 1 / span 3;
+}
+.twin2 {
+  background-color: grey;
+  grid-column: 4 / span3;
+}
+.foot {
+  grid-area: f;
+  background-color: yellowgreen;
+}
+.text {
+  grid-area: t;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+}
+.content {
+  display: grid;
+  text-align: center;
+  font-size: 30px;
+  grid-template-columns: 1fr 3fr 1fr;
+  height: 100vh;
+  gap: 1rem;
+  margin: o;
+  grid-template-areas:
+    "h h h "
+    ".t."
+    "f f f";
+}

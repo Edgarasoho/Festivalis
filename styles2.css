@@ -1,0 +1,29 @@
+body * {
+  padding: 2rem;
+}
+.header {
+  grid-area: h;
+  background: #f2ecbe;
+}
+.sidebar {
+  grid-area: a;
+  background: #98200e;
+}
+.main {
+  grid-area: m;
+  background: #c7f3be;
+}
+.footer {
+  grid-area: f;
+  background: #c0d1f4;
+}
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "h h"
+    "a m"
+    "a f";
+  height: 100vh;
+  gap: 1rem;
+}

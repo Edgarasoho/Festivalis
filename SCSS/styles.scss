@@ -1,0 +1,55 @@
+@import "./variables.scss";
+h1 {
+  color: $color;
+  text-align: center;
+  font-size: 5rem;
+}
+.box {
+  background-image: $back;
+  border-radius: 2rem;
+}
+.text {
+  padding: 2rem;
+  display: flex;
+  justify-content: end;
+  gap: 5rem;
+
+  background-image: $back;
+  color: $color;
+}
+body {
+  background-color: rgb(8, 8, 8);
+}
+.lor1 {
+  background-image: $fonas;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+
+  color: $color;
+  padding: 2rem;
+}
+.lor2 {
+  border-radius: $border;
+  background-image: $back;
+  color: $spalva;
+  text-align: center;
+  padding: 5rem;
+  font-size: 3rem;
+  margin: 6rem;
+}
+.cap {
+  width: 100px;
+  position: relative;
+  left: 20rem;
+  top: 5rem;
+}
+a {
+  color: $spalva;
+  font-size: 2rem;
+}
+.logo {
+  width: 50px;
+  border-radius: 50px;
+  background-color: black;
+}

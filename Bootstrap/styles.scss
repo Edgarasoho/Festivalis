@@ -1,0 +1,255 @@
+// font-family: "Roboto Condensed", sans-serif;
+/* ==============================
+BENDRINIAI STILIAI
+==============================*/
+
+* {
+  font-family: Roboto Condensed;
+  font-weight: 400;
+}
+h2 {
+  color: #404445;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h2.white {
+  color: white;
+}
+@media only screen and (max-width: 575px) {
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+p.sub-heading {
+  color: #5f6b81;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+p.sub-heading.white {
+  color: white;
+}
+p.sub-heading {
+  color: #5f6b81;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn {
+  padding: 14px 50px;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #43c45f;
+  border-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background: #1c4625;
+  border-color: #15361c;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ==============================
+SKILCIU BENDRI STILIAI
+==============================*/
+.page-section {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+.page-section .page-section-header-row {
+  text-align: center;
+}
+.page-section .page-section-header-row h2 {
+  margin-bottom: 25px;
+}
+.page-section .page-section-header-row p.subheading {
+  width: 100%;
+  max-width: 648px;
+  margin: 0 auto;
+}
+/* ==============================
+NAVIGACIJOS STILIAI
+==============================*/
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #878b9b;
+}
+.navbar .navbar-brand:hover {
+  color: #43c45f;
+}
+.navbar .navbar-toggler {
+  border-color: transparent;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+}
+.navbar .navbar-nav .navbar .navbar-nav .nav-item:not(:first-child) {
+  margin-left: 37px;
+}
+@media screen and (max-width: 991) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #404445;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #43c45f;
+  font-weight: 900;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #43c45f;
+}
+
+/* ==============================
+PRADINIO PUSLAPIO STILIAI
+==============================*/
+
+.home-page header {
+  height: calc(100vh - 80px);
+  background: linear-gradient(rgba(98, 100, 113, 0.5), rgba(98, 100, 113, 0.5));
+  background-image: url("./img/Rectangle\ 1\ \(1\).png");
+  background-size: cover;
+  text-align: center;
+}
+/* kodel reikia taip rasyti??*/
+.home-page header .container,
+.home-page header .container .row {
+  height: 100%;
+}
+.home-page header h1 {
+  color: #fff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 575px) {
+  .home-page header h1 {
+    font-size: 54px;
+  }
+}
+
+.home-page header p {
+  color: #d5d7d8;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 681px;
+  width: 100%;
+  margin: 33px auto 49px;
+}
+
+/* GENERAL INFORMATION STILIAI */
+
+@media only screen and (max-width: 576px) {
+  .home-page
+    .general-informstion
+    .text-information-col
+    .information-block:nth-child(-n + 2) {
+    margin-bottom: 52px;
+  }
+}
+
+.home-page .general-informstion .text-information-col .information-block h3 {
+  color: #404445;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home-page .general-informstion .text-information-col .information-block p {
+  color: #5f6b81;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.home-page .text-information-col {
+  padding: 50px;
+}
+/* VIDEO SECTION STILIAI */
+
+.home-page .video-section {
+  background: #f1f8ff;
+}
+.home-page .video-section .video-col {
+  margin-top: 54px;
+}
+/* ==============================
+ketvirto puslapio stiliai
+==============================*/
+.text-sec {
+  background: #fff;
+  //   width: 1920px;
+  //   height: 6119px;
+}
+.text-p {
+  color: #404445;
+  margin: 20px;
+  width: 151px;
+  height: 28px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.188%;
+}
+.text-h1 {
+  color: #404445;
+  margin: 20px;
+  width: 672px;
+  height: 153px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.188%;
+}
+@media only screen and (max-width: 575px) {
+  .text-h1 {
+    text-align: left;
+    font-size: 10px;
+    line-height: 40px;
+  }
+}
+
+/*  STILIAI */

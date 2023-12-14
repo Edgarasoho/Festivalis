@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+  box-sizing: border-box;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+}
